@@ -12,9 +12,99 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body class="page theme_dark">
-    <header class="header"></header>
-    <main class="content content-section"></main>
-    <footer class="footer"></footer>
+    <header class="header">
+      <h1 class="header__title heading content__section">Как стать нищим?</h1>
+      <nav class="header__menu content__section">
+        <p class="header__slogan">Money</p>
+        <ul class="header__theme-toggler">
+          <li>
+            <button disabled class="header__theme-button header__theme-button_type_light header__theme-button_is-active">Светлая</button>
+          </li>
+          <li>
+            <button class="header__theme-button header__theme-button_type_dark">Тёмная</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content content__section">
+      <div class="content__block">
+        <h2 class="content__title heading">Давайте в долг всем людям</h2>
+        <p class="content__text">Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Doloremque ab dolor, alias id minus libero modi 
+          possimus quidem nihil ex esse commodi, sed nam eos fugit tempore quae quis ullam.</p>
+        <p class="content__text">Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Doloremque ab dolor, alias id minus libero modi 
+          possimus quidem nihil ex esse commodi, sed nam eos fugit tempore quae quis ullam.</p>
+      </div>
+      <div class="content__block">
+        <h2 class="content__title heading">Поставьте всё на красное</h2>
+        <p class="content__text">Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Doloremque ab dolor, alias id minus libero modi 
+          possimus quidem nihil ex esse commodi, sed nam eos fugit tempore quae quis ullam.</p>
+      </div>
+      <figure class="content__figure content__block">
+        <picture>
+          <source
+            srcset="./images/cards-1x.avif 1x, ./images/cards-2x.avif 2x"
+            type="image/avif"
+          />
+          <source
+            srcset="./images/cards-1x.webp 1x, ./images/cards-2x.webp 2x"
+            type="image/webp"
+          />
+          <img class="content__picture"
+            loading="lazy"
+            srcset=".images/cards-1x.png 1x, ./images/cards-2x.png 2x"
+            alt="Пожилой мужчина улыбается через силу"
+          />
+        </picture>
+        <figcaption class="content__picture-caption">
+          <p>Отдал свою пенсию прохожему</p>
+        </figcaption>
+      </figure>
+      <div class="content__block">
+        <p class="content__text">Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Doloremque ab dolor, alias id minus libero modi 
+          possimus quidem nihil ex esse commodi, sed nam eos fugit tempore quae quis ullam.</p>
+        <p class="content__text">Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Doloremque ab dolor, alias id minus libero modi 
+          possimus quidem nihil ex esse commodi, sed nam eos fugit tempore quae quis ullam.</p>
+      </div>
+      <div class="content__block">
+        <h2 class="content__title heading">Сделайте пожертвование</h2>
+        <p class="content__text">Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Doloremque ab dolor, alias id minus libero modi 
+          possimus quidem nihil ex esse commodi, sed nam eos fugit tempore quae quis ullam.</p>
+        <blockquote class="content__blockquote">
+          Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Doloremque ab dolor, alias id minus libero modi 
+          possimus quidem nihil ex esse commodi, sed nam eos fugit tempore quae quis ullam.
+          Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Doloremque ab dolor, alias id minus libero modi 
+          possimus quidem nihil ex esse commodi, sed nam eos fugit tempore quae quis ullam.
+        </blockquote>
+        <p class="content__text">Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Doloremque ab dolor, alias id minus libero modi 
+          possimus quidem nihil ex esse commodi, sed nam eos fugit tempore quae quis ullam.</p>
+        <p class="content__text">Lorem, ipsum dolor sit amet consectetur 
+          adipisicing elit. Doloremque ab dolor, alias id minus libero modi 
+          possimus quidem nihil ex esse commodi, sed nam eos fugit tempore quae quis ullam.</p>
+      </div>
+      <article class="content__card content__block">
+        <h3 class="content__card-title heading">Это <span class="colored-text">пустой</span> блок</h3>
+        <p class="content__card-text">Как ваш бумажник</p>
+      </article>
+      <h2 class="content__title heading">Очевидные способы избавиться от денег</h2>
+      <ul class="content__list">
+        <li>Смыть их в унитаз</li>
+        <li>Разжечь из денег костёр и приготовить шашлык на огне</li>
+        <li>Сделать из банкнот бумажные самолёты и пускать в окно</li>
+        <li>Инвестировать (шутка)</li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <p class="header__slogan">Money</p>
+    </footer>
 
     <!-- Раскомментируйте строчку ниже, когда вёрстка будет готова. Если вы назвали все классы. как нужно, переключатель темы будет работать -->
     <!-- <script src="./scripts/theme-changer.js"></script> -->
