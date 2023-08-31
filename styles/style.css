@@ -149,6 +149,12 @@ button:disabled {
   margin-block-end: 1.5em;
 }
 
+.content__link {
+  color: currentColor;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
 .content__figure {
   position: relative;
   inline-size: calc(100% + 10vw);
